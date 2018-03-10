@@ -85,7 +85,7 @@ my %puzzle_number;
 
 # Parse the command line arguments
 no strict;
-getopts('hu:f:A');
+getopts('hu:f:PInt');
 if ($opt_h) {
     usage();
 }
